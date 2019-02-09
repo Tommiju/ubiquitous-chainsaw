@@ -8,7 +8,7 @@ Test Teardown  Common.End Web Test
 
 
 *** Variables ***
-${BROWSER} =  edge
+${BROWSER} =  ff
 ${URL} =  http://www.amazon.de
 ${SEARCH_TERM} =  Ferrari 458
 
