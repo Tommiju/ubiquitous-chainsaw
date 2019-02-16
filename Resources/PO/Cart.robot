@@ -4,7 +4,7 @@ Library  SeleniumLibrary
 
 *** Keywords ***
 Verify Product Added
-    Wait Until Page Contains    Zum Einkaufswagen hinzugefügt
+    Wait Until Page Contains    Added to Basket
 
 Proceed To Checkout
-    Click Link                  Zur Kasse gehen (1 Artikel)
+    Click Button                  xpath=//*[@id="hlb-ptc-btn"]

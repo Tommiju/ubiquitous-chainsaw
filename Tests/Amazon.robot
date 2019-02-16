@@ -14,27 +14,31 @@ ${SEARCH_TERM} =  Ferrari 458
 
 *** Test Cases ***
 User Can Search For Products
-    [Documentation]  test searching products
+    [Documentation]  Test searching products
     [Tags]  Current
+    AmazonWebGui.Change Language
     AmazonWebGui.Search For Products
 
 User Can View Products
-    [Documentation]  test view products
-    [Tags]  Smoke
+    [Documentation]  Test view products
+    [Tags]  View
+    #AmazonWebGui.Change Language
     AmazonWebGui.Search For Products
     AmazonWebGui.Select Products From The Search Results
 
 User Can Add Product To Cart
-    [Documentation]  test adding product to cart
+    [Documentation]  Test adding product to cart
     [Tags]  Smoke
+    AmazonWebGui.Change Language
     AmazonWebGui.Search For Products
     AmazonWebGui.Select Products From The Search Results
     AmazonWebGui.Add Product To Cart
 
 
 User Must Sign In To Check Out
-    [Documentation]  test checkout
+    [Documentation]  Test checkout
     [Tags]  Smoke
+    AmazonWebGui.Change Language
     AmazonWebGui.Search For Products
     AmazonWebGui.Select Products From The Search Results
     AmazonWebGui.Add Product To Cart

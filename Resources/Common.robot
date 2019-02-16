@@ -10,3 +10,9 @@ Begin Web Test
 
 End Web Test
     Close Browser
+
+Change Language
+    LandingPage.Load
+    LandingPage.Verify Page Loaded
+    TopNav.Select Language
+

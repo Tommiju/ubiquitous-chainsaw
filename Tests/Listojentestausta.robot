@@ -12,6 +12,6 @@ ${URL} =  http://www.amazon.de
 
 *** Test Cases ***
 Change Webpage Language
-    [Documentation]  Change languege to EN
+    [Documentation]  Change language to EN
     [Tags]  EN
     AmazonWebGui.Change Language

@@ -4,7 +4,7 @@ Library  SeleniumLibrary
 
 *** Keywords ***
 Verify Search Completed
-    Wait Until Page Contains  ${SEARCH_TERM}
+    Wait Until Page Contains    ${SEARCH_TERM}
  #To Do vaihda tähän oikea teksti "hakutulokset"
 
 Click Product Link
