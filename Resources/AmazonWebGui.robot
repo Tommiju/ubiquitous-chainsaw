@@ -25,3 +25,8 @@ Add Product To Cart
 Begin Checkout
     Cart.Proceed To Checkout
     SignIn.Verify Page Loaded
+
+Change Language
+    LandingPage.Load
+    LandingPage.Verify Page Loaded
+    TopNav.Select Language
